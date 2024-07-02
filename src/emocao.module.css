@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(36, 35, 35);
+    color: #fcfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Alinhamento dos cards */
+.sentindo{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.sectionItens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+.cardEmocao{
+    background-color: rgb(24, 24, 24);
+    color: white; 
+    width: 20%;
+    text-align: center;
+}
+
+.cardEmocao img{
+    width: 100%;
+    height: 90%;
+    
+}
+
+
+/*Selecionando as cores dos cards*/
+.cardEmocao:hover:first-child {
+    background-color: #ecae15;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.cardEmocao:hover:nth-child(2){
+    background-color: #018a7e;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cardEmocao:hover:nth-child(3){
+    background-color: #733e9d;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cardEmocao:hover:nth-child(4){
+    background-color: #49a236;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cardEmocao:hover:nth-child(5){
+    background-color: #a11205;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cardEmocao:hover:nth-child(6){
+    background-color: #5244b3;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cardEmocao:hover:nth-child(7){
+    background-color: #315ba8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cardEmocao:hover:nth-child(8){
+    background-color: #d8439c;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.cardEmocao:hover:last-child{
+    background-color: #d56a22;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nomeEmocao{
+
+}
+
+/*RESPONSIVIDADE */
+@media screen and (max-width: 600px) {
+    .sentindo{
+        text-align: center;
+        font-size: 40px;
+        
+    }
+    .cardEmocao img{
+        width: 100%;
+        
+    }
+    .cardEmocao{
+        background-color: rgb(24, 24, 24);
+        color: white; 
+        width: 40%;
+        text-align: center;
+    }
+    .sectionItens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+      }
+}
